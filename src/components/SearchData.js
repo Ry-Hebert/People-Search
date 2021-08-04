@@ -70,7 +70,7 @@ const SearchData = () => {
         setSearchData({ dataRes: data, loading: false })
     }
 
-    useEffect(()=>{populatePeopleData()}, [1])
+    useEffect(()=>{populatePeopleData()}, [])
 
     const renderPeopleListTable = (peopleList) => {
         return (
